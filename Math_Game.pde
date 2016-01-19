@@ -4,11 +4,16 @@ import controlP5.*;
 
 //Global Variable integers
 int x1; //random variable 1
+
 int x2; //random variable 2
+
 int y1; // correct answer
+
 int y2; // answer inputed
+
 // counts the amount of keys pressed
 int counter;
+
 // the array that holds all the numbers pressed
 char pressed[];
 
@@ -24,7 +29,7 @@ void setup() {
 
 void draw() {
   background(0);
-  
+
   textSize(30);
   text("Enter Answer Then Press Enter", 100, 100);
 
@@ -41,10 +46,6 @@ void draw() {
   text(""+x1, 120, 300);
   text("X", 260, 300);
 }
-
-// Click on the window to give it focus,
-// and press the 'B' key.
-
 
 
 void keyPressed()
